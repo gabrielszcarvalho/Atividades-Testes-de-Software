@@ -28,7 +28,7 @@ test.describe('senha - caminhos válidos', () => {
   const casos = [
     { senha: 'Senha123', classe: 'senha típica com 8 caracteres' },
     { senha: 'MinhaSenha2026', classe: 'senha com tamanho intermediário' },
-    { senha: 'Abc123!@#', classe: 'senha com caracteres especiais' },
+    { senha: 'Senha#2026!', classe: 'senha com caracteres especiais' },
     { senha: '1aA45678', classe: 'número, minúscula e maiúscula no início' },
   ];
 
